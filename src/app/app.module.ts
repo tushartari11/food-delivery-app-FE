@@ -7,6 +7,7 @@ import { HeaderModule } from './header/header.module';
 import { RestaurantListingModule } from './restaurant-listing/restaurant-listing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FoodCatalogueModule } from './food-catalogue/food-catalogue.module';
+import { OrderSummaryModule } from './order-summary/order-summary.module';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FoodCatalogueModule } from './food-catalogue/food-catalogue.module';
     RestaurantListingModule,
     HttpClientModule,
     FoodCatalogueModule,
+    OrderSummaryModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
